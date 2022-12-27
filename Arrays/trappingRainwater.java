@@ -22,11 +22,17 @@ public class trappingRainwater {
     }
 
     // Loop ->
-    // waterLevel = min(leftMaxBoundary, rightMaxBoundary)
-    // trapped Water = waterLevel - height[i]
+    int trappedWater = 0;
 
-    int count = 0;
-    return count;
+    for (int i = 0; i < n; i++) {
+      // waterLevel = min(leftMaxBoundary, rightMaxBoundary)
+      int waterLevel = Math.min(leftMax[i], rightMax[i]);
+
+      // trapped Water = waterLevel - height[i]
+      trappedWater += waterLevel - height[i];
+    }
+
+    return trappedWater;
   }
 
   public static void main(String[] args) {
