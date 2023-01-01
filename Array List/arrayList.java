@@ -1,16 +1,9 @@
 import java.util.ArrayList;
 public class arrayList {
   public static void main(String[] args) {
-
     // Declaring ArrayList
-    // String | Boolean | Float
     ArrayList<Integer> arr = new ArrayList<>();
-
-
-    // Allocating ArrayList
-
-
-
+    ArrayList<String> list1 = new ArrayList<>();
+    ArrayList<Boolean> list2 = new ArrayList<>();
   }
-
 }
