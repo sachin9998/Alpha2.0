@@ -16,12 +16,13 @@ public class countingSort {
 
     // Sorting
 
-
-
   }
 
   public static void main(String[] args) {
     int arr[] = { 1, 7, 4, 9, 3, 2, 4, 1, 5 };
     counting_sort(arr);
+
+    int count = 65;
+    System.out.println((char) count);
   }
 }
