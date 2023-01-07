@@ -5,7 +5,7 @@ public static void main(String[] args) {
   // Rows | column --
   int arr[][] = new int[3][3];
 
-   
+   // 2D arrays in memory
 
 
 
