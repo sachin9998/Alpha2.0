@@ -8,5 +8,9 @@ public class strings {
     String fullName = first + " " + last;
     System.out.println(fullName);
 
+    StringBuilder sb = new StringBuilder();
+    sb.append('P');
+    System.out.println(sb);
+
   }
 }
